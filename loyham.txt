@@ -1,0 +1,47 @@
+name: online_shoping_Convenient -->{
+
+
+
+
+Project management ->
+    1.Izlanish
+    2.Loyihalash -> design
+    3.Ko'dlash
+    4.Testlash
+    5.Yangilash
+
+Roles  -->
+    Adminlar
+    clientlar
+    
+Admin ->
+    id : unique
+    is creator : bool
+    login : str
+    password : str
+    rasm : str
+    updatedAT : date
+    createdAT : date
+
+client ->
+    Nummber : int
+    password
+    name
+    full name
+    updatedAT : date
+    createdAT : date
+
+Product type
+    id: product_type
+    name: product_type
+    updatedAT: date
+    createdAT: date
+
+Products -->
+    all_products:
+    all_technique:
+
+
+
+    
+}

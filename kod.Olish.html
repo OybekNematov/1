@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Do'kon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="login-section">
+        <div id="phone-entry">
+            <h2>Telefon raqamini kiriting</h2>
+            <p>Tasdiqlash kodini SMS orqali yuboramiz</p>
+            <input type="text" id="phone-number" placeholder="+998 00 000-00-00">
+            <button onclick="sendCode()">Kod olish</button>
+             
+        </div> 
+
+        <div id="code-entry" style="display: none;">
+            <h2>Kodni kiriting</h2>
+            <p>Telefonni tasdiqlash uchun <span id="entered-number"></span> raqamiga 5 xonali kod yuborildi</p>
+            <input type="text" id="verification-code" placeholder="12345">
+            <button onclick="verifyCode()">Tasdiqlash</button>
+            <p>Agar kod kelmasa, siz <span id="retry-time">52</span> soniya orqali yangisini olishingiz mumkin</p>
+        </div>
+    </div>
+
+    <div id="product-section" style="display: none;">
+        <h2>Mahsulotlar</h2>
+        <div id="products">
+            <!-- Misol uchun Mahsulotlar -->
+            <div class="product">
+                <img src="loihaga oid rasimlar/Macbook.png" alt="Macbook">
+                <p>Macbook</p>
+                <p>12 850 000 so'm/oyiga</p>
+            </div>
+            <div class="product">
+                <img src="loihaga oid rasimlar/Iphon 15 pro max.png" alt="Phone">
+                <p>Iphon 15 pro max</p>
+                <p>15 577 000 so'm</p>
+            </div>
+            <div class="product">
+                <img src="loihaga oid rasimlar/Airpods pro.png" alt="Airpods pro">
+                <p>Airpods</p>
+                <p>2 700 000 so'm/oyiga</p>
+            </div>
+
+            <div class="product">
+                <img src="loihaga oid rasimlar/Mishka.png" alt="Mishka">
+                <p>Mishka</p>
+                <p>120 000 so'm</p>
+            </div>
+            <div class = "product">
+                <img src="loihaga oid rasimlar/ipad.png" alt="ipad">
+                <p>Ipad</p>
+                <p>10 668 000</p>
+            </div>
+
+            <div class ='product'>
+                <img src = 'loihaga oid rasimlar/kamera.png' alt = 'Kamera' />
+                <P>kamera</P>
+                <p>699 000</p>
+            </div>
+            
+            <!-- Zaruratga qarab ko'proq mahsulot qo'shing -->
+        </div>
+        <div
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
